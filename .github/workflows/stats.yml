@@ -24,8 +24,8 @@ jobs:
           output_action: commit
 
           # Force REST API (fixes activity & habits errors)
-          github_api_graphql: no
-          github_api_rest: yes
+        github_api_graphql: disabled
+
 
           # Languages
           plugin_languages: yes
